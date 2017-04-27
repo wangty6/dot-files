@@ -31,6 +31,8 @@ set showmatch
 set comments=sl:/*,mb:\ *,elx:\ */
 " no spell check
 set nospell
+" quick change mode
+set ttimeoutlen=50
 
 " Install OmniCppComplete like described on http://vim.wikia.com/wiki/C++_code_completion
 " This offers intelligent C++ completion when typing ‘.’ ‘->’ or <C-o>
@@ -95,5 +97,6 @@ endif
 
 "End dein Scripts-------------------------
 
-" Self Define
+" Self Define Key Bindings
 nnoremap <f9> :tabe %:p:h<cr>
+nnoremap <C-[> <C-c>
