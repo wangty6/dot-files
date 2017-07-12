@@ -98,4 +98,4 @@ alias testsaas='python /home/tywang/ficus/face/product/face_saas/common_script/i
 alias startsaas='pushd /home/tywang/ficus/face/product/face_saas;bash ~/home/tywang/ficus/face/product/face_saas/start_saas.sh;popd'
 alias stopsaas='pushd /home/tywang/ficus/face/product/face_saas;bash ~/home/tywang/ficus/face/product/face_saas/stop_saas.sh;popd'
 alias face2='pushd ~/home/tywang/ficus2/face/product/face_saas/'
-
+setxkbmap -option caps:ctrl_modifier
