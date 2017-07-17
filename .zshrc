@@ -99,4 +99,5 @@ alias startsaas='pushd /home/tywang/ficus/face/product/face_saas;bash ~/home/tyw
 alias stopsaas='pushd /home/tywang/ficus/face/product/face_saas;bash ~/home/tywang/ficus/face/product/face_saas/stop_saas.sh;popd'
 alias face2='pushd ~/home/tywang/ficus2/face/product/face_saas/'
 alias opod='pushd /home/tywang/ficus/face/product/opod'
+alias lsz='du -sh *'
 setxkbmap -option caps:ctrl_modifier
