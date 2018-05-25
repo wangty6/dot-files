@@ -31,13 +31,6 @@ set nospell
 " quick change mode
 set ttimeoutlen=50
 
-" Install OmniCppComplete like described on http://vim.wikia.com/wiki/C++_code_completion
-" This offers intelligent C++ completion when typing ‘.’ ‘->’ or <C-o>
-" Load standard tag files
-set tags+=~/.vim/tags/cpp
-set tags+=~/.vim/tags/gl
-set tags+=~/.vim/tags/sdl
-set tags+=~/.vim/tags/qt4
 " leader is ,
 let mapleader = ','
 
@@ -48,3 +41,7 @@ let python_highlight_all = 1
 "End dein Scripts------------------------- 
 " Self Define Key Bindings
 nnoremap <f9> :tabe %:p:h<cr>
+
+set tags=tags;/
+set cscopetag
+set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
