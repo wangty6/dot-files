@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/tywang/.oh-my-zsh
+export ZSH=/home/wangtianyu/.oh-my-zsh
 
 #eval `dircolors ~/.dircolors.256dark`
 # setxkbmap -option ctrl:swapcaps
