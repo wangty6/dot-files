@@ -86,18 +86,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias gst='git status -uno'
-alias face='pushd /home/tywang/ficus/face/product/face_saas/'
-alias dpl='pushd /home/tywang/ficus/face/product/face_saas/deploy'
-alias ctags=/home/tywang/ctags/bin/ctags
-alias brazil='ssh tywang@192.168.2.52'
-alias testing='ssh yituadmin@192.168.2.15'
-alias monitor='ssh yituadmin@115.29.104.118'
-alias logl='pushd /home/tywang/ficus/face/product/face_saas/deploy/face_saas_runtime/log'
-alias testsaas='python /home/tywang/ficus/face/product/face_saas/common_script/is_saas_alive.py'
-alias startsaas='pushd /home/tywang/ficus/face/product/face_saas;bash ~/home/tywang/ficus/face/product/face_saas/start_saas.sh;popd'
-alias stopsaas='pushd /home/tywang/ficus/face/product/face_saas;bash ~/home/tywang/ficus/face/product/face_saas/stop_saas.sh;popd'
-alias face2='pushd ~/home/tywang/ficus2/face/product/face_saas/'
-alias opod='pushd /home/tywang/ficus/face/product/opod'
 alias lsz='du -sh *'
 setxkbmap -option caps:ctrl_modifier
